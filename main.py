@@ -1,4 +1,11 @@
+from op import op
+
 #input
 a = int(input("Enter value of a:"))
-op = input("Enter operater")
-a = int(input("Enter value of b:"))
+input_op = input("Enter operater:")
+b = int(input("Enter value of b:"))
+
+calc = op(a, b)
+
+if (input_op == "+"):
+    print("%d + %d = %d"%(a, b, calc.add()))
