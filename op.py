@@ -8,3 +8,6 @@ class op(object):
     
     def sub(self):
         return self.a - self.b
+    
+    def mult(self):
+        return self.a * self.b

@@ -11,3 +11,5 @@ if (input_op == "+"):
     print("%d + %d = %d"%(a, b, calc.add()))
 elif (input_op == "-"):
     print("%d - %d = %d"%(a, b, calc.sub()))
+elif (input_op == "*"):
+    print("%d * %d = %d"%(a, b, calc.mult()))
