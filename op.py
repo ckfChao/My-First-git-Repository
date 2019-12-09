@@ -11,3 +11,6 @@ class op(object):
     
     def mult(self):
         return self.a * self.b
+
+    def div(self):
+        return self.a / self.b

@@ -13,3 +13,7 @@ elif (input_op == "-"):
     print("%d - %d = %d"%(a, b, calc.sub()))
 elif (input_op == "*"):
     print("%d * %d = %d"%(a, b, calc.mult()))
+elif (input_op == "/"):
+    print("%d / %d = %d"%(a, b, calc.div()))
+else:
+    print("Error")
