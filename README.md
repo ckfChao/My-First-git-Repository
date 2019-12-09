@@ -1,2 +1,7 @@
 # My-First-git-Repository
-simple calculator in python
+Is is simple calculator in python
+  #Function
+    #Add function 
+    #Subtract function
+    #Multiply function
+    #Divided function
