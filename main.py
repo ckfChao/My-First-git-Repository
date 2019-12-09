@@ -9,3 +9,5 @@ calc = op(a, b)
 
 if (input_op == "+"):
     print("%d + %d = %d"%(a, b, calc.add()))
+elif (input_op == "-"):
+    print("%d - %d = %d"%(a, b, calc.sub()))
